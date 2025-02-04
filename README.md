@@ -1,0 +1,1 @@
+This repository demonstrates a bug in React Router Dom v6 where a wildcard route ("*") unexpectedly matches before more specific routes.  The issue occurs when a route path is more specific than the wildcard. The solution shows how to fix it by reorganizing routes, putting the more general wildcard route at the end.
